@@ -126,3 +126,63 @@ section {
 .home-content .btn a:hover {
     color: black;
 }
+
+.about {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.about-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px orangered;
+    transition: 0.4s ease-in-out;
+}
+
+.about-img img:hover {
+     box-shadow: 0 0 20px orangered,
+                 0 0 35px orangered;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+.about-content h3 {
+    font-size: 50px;
+}
+
+.about-content p {
+    font-size: 16px;
+}
+
+.about-content .btn {
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.about-content a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.about-content .btn:hover{
+    background-color: white;
+}
+
+.about-content a:hover{
+    color: black;
+}
