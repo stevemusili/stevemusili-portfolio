@@ -18,7 +18,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 30px 70px;
+    padding: 20px 70px;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1000;
 }
@@ -183,17 +183,24 @@ section {
 
 .skills {
     background-color: rgb(14, 13, 13);
+    text-align: center;
 }
 
 .skills h3 {
     font-size: 50px;
 }
 
+.skills-content {
+    text-align: center;
+}
+
 .skills-content ul {
     display: flex;
+    justify-content: space-around;
     list-style: none;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .skills-content ul li {
@@ -215,4 +222,40 @@ section {
     background-color: black;
     border: 1px solid orangered;
 }
+
+.projects h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#projects-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+.project-card {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 5px orangered;
+    transition: 0.3s ease-in-out;
+    gap: 10px;
+}
+
+.project-card:hover {
+    box-shadow: 0 0 15px orangered,
+                0 0 25px orangered;
+    transform:scale(1.05);
+}
+
+
+
 
