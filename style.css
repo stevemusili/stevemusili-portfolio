@@ -57,3 +57,72 @@ span {
 .navbar ul li a:hover {
     color:orangered;
 }
+
+section {
+    height: 100vh;
+    padding: 10rem 15%;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.home-content {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
+.home-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px orangered;
+    transition: 0.4s ease-in-out;
+}
+
+.home-img img:hover {
+    box-shadow: 0 0 20px orangered,
+                0 0 35px orangered;
+}
+
+.home-content h1 {
+    font-size: 55px;
+}
+
+.home-content h2 {
+    font-size: 35px;
+}
+
+.home-content p {
+    font-size: 16px;
+}
+
+.home-content .btn {
+    border: none;
+    border-radius: 40px;
+    background-color: orangered;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.home-content .btn a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.home-content .btn:hover {
+    background-color: white;
+}
+
+.home-content .btn a:hover {
+    color: black;
+}
