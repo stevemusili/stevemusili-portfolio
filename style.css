@@ -120,11 +120,8 @@ section {
 }
 
 .home-content .btn:hover {
-    background-color: white;
-}
-
-.home-content .btn a:hover {
-    color: black;
+    background-color: black;
+    border: 1px solid orangered;
 }
 
 .about {
@@ -180,9 +177,42 @@ section {
 }
 
 .about-content .btn:hover{
-    background-color: white;
+    background-color: black;
+    border: 1px solid orangered;
 }
 
-.about-content a:hover{
-    color: black;
+.skills {
+    background-color: rgb(14, 13, 13);
 }
+
+.skills h3 {
+    font-size: 50px;
+}
+
+.skills-content ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skills-content ul li {
+    display: inline;
+    margin: 0 1em;
+    border: 1px solid transparent;
+    background-color: orangered;
+    border-radius: 40px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.skills-content ul li:hover {
+    background-color: black;
+    border: 1px solid orangered;
+}
+
