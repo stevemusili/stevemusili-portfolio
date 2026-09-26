@@ -256,6 +256,15 @@ section {
     transform:scale(1.05);
 }
 
+.contact {
+    text-align: center;
+    background-color: rgb(13, 12, 12);
+}
 
+.contact h3 {
+    font-size: 50px;
+}
 
-
+.contact p {
+    font-size: 20px;
+}
