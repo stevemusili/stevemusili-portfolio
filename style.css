@@ -11,6 +11,7 @@ body {
     color: white;
 }
 
+/* Header Styling */
 .header {
     display: flex;
     justify-content: space-between;
@@ -35,6 +36,7 @@ span {
     color: orangered
 }
 
+/* Navbar Styling */
 .navbar ul{
     display: flex;
     list-style: none;
@@ -59,11 +61,13 @@ span {
     color:orangered;
 }
 
+/* Styling for all Sections */
 section {
     height: 100vh;
     padding: 10rem 15%;
 }
 
+/* Home Section */
 .home {
     display: flex;
     align-items: center;
@@ -125,6 +129,7 @@ section {
     border: 1px solid orangered;
 }
 
+/* About Section */
 .about {
     display:flex;
     align-items: center;
@@ -182,6 +187,7 @@ section {
     border: 1px solid orangered;
 }
 
+/* Skills Section */
 .skills {
     background-color: rgb(14, 13, 13);
     text-align: center;
@@ -224,6 +230,7 @@ section {
     border: 1px solid orangered;
 }
 
+/* Projects Section */
 .projects h3 {
     font-size: 50px;
     text-align: center;
@@ -257,6 +264,7 @@ section {
     transform:scale(1.05);
 }
 
+/* Contact Section */
 .contact {
     text-align: center;
     background-color: rgb(13, 12, 12);
