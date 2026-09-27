@@ -1,10 +1,10 @@
 # Steve Musili Portfolio
 
-A personal portfolio webpage that descibes my background, skills, projects I have done, and contact information.
+A personal portfolio web page that describes my background, skills, projects I have done, and contact information.
 
-## Link to Live Site
+## Live Demo Link
 
-
+[View my portfolio on GitHub pages](https://stevemusili.github.io/stevemusili-portfolio/)
 
 ## Features 
 
